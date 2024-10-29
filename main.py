@@ -6,18 +6,18 @@ load_dotenv()
 
 
 def reponse (user):
-    return("im stupid")
+    return("im not trained yet")
 
 
 
 # app config
-st.set_page_config(page_title="Chatbot-WebMaster", page_icon="🤖")
+st.set_page_config(page_title="Chatbot-WebMaster", page_icon="wolf")
 st.title("Chatbot-WebMaster :wolf:")
 
 # chat history
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
-    AIMessage(content="hello stupid , how can I help you !!")
+    AIMessage(content="hello, how can I help you !!")
 ]
 
 # sidebar
